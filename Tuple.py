@@ -1,0 +1,16 @@
+#tuple
+t = (1,2,5,6,89.7,12,78.9,'name','age',12,56.4)
+print(t)
+print(type(t))
+print(t[0])
+print(type(t[0]))
+#Slicing
+print(t[2 : 5])
+print(t[0 : 5])
+print(t[: 5])
+print(t[: ])
+print(t[: -2])
+print(t[:: -1])
+print(t[:]*2)
+print(t.count(2))
+print(t.index(56.4))
